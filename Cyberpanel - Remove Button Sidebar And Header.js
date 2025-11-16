@@ -26,7 +26,7 @@
         });
     }
 
-    const headerTargets = ["header", "backup-notification", "ai-scanner-notification"];
+    const headerTargets = ["header", "backup-notification", "ai-scanner-notification", "htaccess-notification"];
     headerTargets.forEach(id => {
         const el = document.getElementById(id);
         if (el) el.remove();
